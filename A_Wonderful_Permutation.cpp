@@ -15,13 +15,9 @@ int main()
         }
         int test=0;
         int count=0;
-        for(int i=1;i<=k;i++)
+        for(int i=0;i<k;i++)
         {
-            for(int j=0;j<k;j++)
-            {
-                if(i==p[j])test=1;
-            }
-            test==1? test=0 : count++ ;
+            if(p[i]>k)count++;
         }
         cout<<count<<endl;
     }
