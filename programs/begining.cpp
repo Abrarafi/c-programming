@@ -1,11 +1,12 @@
-#include<bits/stdc++.h>
+#include <iostream>
+#include <string>
 using namespace std;
-int main()
 
+int main()
 {
-    int a,b;
-    cin>>a>>b;
-    int x=a+b;
-    cout<<"X = "<<x<<endl;
-    return 0;
+string bin_string = "10101010";
+int number = 0;
+number = stoi(bin_string, nullptr, 2);
+cout <<"Original binary string: "<< bin_string << endl;
+cout <<"Equivalent integer: "<< number << endl;
 }
